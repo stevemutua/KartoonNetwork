@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<title>JavaScript Animation</title>
+
+<script type = "text/javascript">
+<!--
+var imgObj = null;
+
+function init() {
+imgObj = document.getElementById('myImage');
+imgObj.style.position = 'relative'; 
+imgObj.style.left = '0px'; 
+}
+
+function moveRight() {
+imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+}
+
+window.onload =init;
+</script>
+
+</head>
+
+<body>
+
+<table width="90%" cellpadding="5" cellspacing="0" > 
+ <tr bgcolor="grey">
+ <td width="200" valign="top">
+ <img src="change.jpg" height="100" width="100" ></img>
+ </td> 
+ <td valign="top">
+ <h1 align="right">KIDS</h1> 
+ <h3 align="right">best cartoon site</h3>
+ </td>
+ </tr></table>
+
+<p>
+<video  width="520" height="320" controls >
+<source src="change/xxx.mp4" type="video/mp4">
+<source="xxx.ogg" type="video/ogg">
+</video>
+</p>
+<video  width="520" height="320" controls >
+<source src="vid2.mp4" type="video/mp4">
+<source="vid2.ogg" type="video/ogg">
+                        
+
+</body>
+</html>

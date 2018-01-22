@@ -1,0 +1,100 @@
+<!DOCTYPE html>  
+<html>
+<head>  
+<meta charset="utf-8">  
+<title>registration form</title> 
+<script type="text/javascript">
+Function show_alert(){
+Alert("saved");
+}
+</script> 
+<style type="text/css"> 
+<!-- 
+ 
+ #kid ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: pink; 
+	} 
+ 
+#kid ul li {  
+	display: inline; 
+	} 
+ 
+#kid ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: black; 
+	background-color: pink; 
+	} 
+ 
+#kid ul li a:hover { 
+	color: pink; 
+	background-color: black; 
+	} 
+ 
+--> 
+</style>     
+</head>  
+<body bgcolor="orange">
+<table width="90%" cellpadding="5" cellspacing="0" > 
+ <tr bgcolor="orange">
+ <td width="200" valign="top">
+ <img src="change.jpg" height="100" width="100" ></img>
+ </td> 
+ <td valign="top">
+ <h1 align="right">KIDS</h1> 
+ <h3 align="right">best cartoon site</h3>
+ </td>
+ </tr>
+</table> 
+<div id="kid"> 
+  <ul> 
+ <a href="change.html">Home</a></li>
+ <li> <a href="videos.html">videos</a></li> 
+ <li> <a href="images.html">images</a> </li> 
+ <li> <a href="contact.html">Contact</a></li> 
+ <li> <a href="ANIMATION.html">Animations</a></li>
+  </ul> 
+</div>
+ 
+<h1>Registration Form</h1>  
+<p>Use tab keys to move from one input field to the next.</p>  
+<form name='registration' onSubmit="return formValidation();">  
+<ul>  
+<li><label for="userid">User id:</label></li>  
+<li><input type="text" name="userid" size="12" /></li>  
+<li><label for="passid">Password:</label></li>  
+<li><input type="password" name="passid" size="12" /></li>  
+<li><label for="passid">confirm Password:</label></li>  
+<li><input type="confirm password" name="passid2" size="12" /></li>
+<li><label for="username">Name:</label></li>  
+<li><input type="text" name="username" size="50" /></li>  
+<li><label for="address">Address:</label></li>  
+<li><input type="text" name="address" size="50" /></li>  
+<li><label for="country">Country:</label></li>  
+<li><select name="country">  
+<option selected="" value="Default">(Please select a country)</option>  
+<option value="AF">kenya</option>  
+<option value="AL">uganda</option>  
+<option value="DZ">tanzania</option>  
+<option value="AS">rwanda</option>  
+<option value="AD">burundi</option>  
+</select></li>  
+ 
+ 
+<li><label for="email">Email:</label></li>  
+<li><input type="text" name="email" size="50" /></li>  
+<li><label>Language:</label></li>  
+<li><input type="checkbox" name="en" value="en" checked />English</li>  
+<li><input type="checkbox" name="nonen" value="noen" />swahili</li>  
+ 
+  
+</ul> 
+<input type="submit" name="submit" onclick="show_alert" value="sign up"  ><a href="confirm.html"></a></input>
+<a href="change.html">home
+</form>  
+</body>  
+</html>  
